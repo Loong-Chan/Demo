@@ -1,0 +1,24 @@
+{
+    "cora": {
+        "optimizer_lr": 0.0006371593349780917,
+        "optimizer_weight_decay": 5.902067860559173e-06,
+        "dropout": 0.7650604219993087,
+        "num_hidden": 256,
+        "num_layer": 5,
+        "dataset": "cora",
+        "device": "cuda:0",
+        "verbose": false,
+        "dataset_remove_selfloop": true,
+        "dataset_undirected": true,
+        "dataset_row_normalize": true,
+        "num_try": 10,
+        "num_trial": 2,
+        "max_epoch": 10,
+        "schedular_factor": 0.5,
+        "schedular_patience": 50,
+        "schedular_threshold": 1e-05,
+        "logger_early_stop_patience": 200,
+        "proportion_train": 0.6,
+        "proportion_val": 0.2
+    }
+}

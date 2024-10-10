@@ -1,2 +1,5 @@
 # Demo
- A code template for implementing in-menory semi-supervised node classification with GNNs
+ A code template for implementing small-scale semi-supervised node classification with GNNs.
+
+
+
